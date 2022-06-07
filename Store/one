@@ -1,1 +1,65 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <nav>
+        <li><a class=nav href="https://wvcs.github.io/index-tylerD6/">Home</a></li>
+        <li><a class=nav href="#Popular">Popular</a></li>
+        <li><a class=nav href="#Sales">Sales</a></li>
+      </nav>
+    <h2> Find Items
+    </h2>
+    
+      <div id="formDiv">
+<form autocomplete="off"
+      action="/action_page.php">
+ 
+    <input id="theInput"
+           type="text" name="myInput"
+           placeholder="Search...">
+  </div>
+</form>
+      <br>
+      <br>
+      <br>
+      <center>
+      <img src="fire_alpaca_018.png"
+           </img>
+        <body>
 
+          </html>
+          
+          <style>
+
+#theInput {
+  width: 30%;
+  background-color: #bbc;
+}
+#formDiv {
+  position: sticky;
+  right: 0;
+}
+nav {
+  margin: 5px;
+  padding: 20px;
+}
+li {
+  display: inline;
+  padding: 30px;
+  font-size:20px;
+  font-family:"Copperplate", Fantasy;
+  margin:10px;
+}
+body {
+}
+.nav {
+  position: fixed;
+  overflow: hidden;
+  background-color: lightblue;
+  width: 100%;
+  padding:10px;
+  margin: -25px;
+}
+
+</style>
