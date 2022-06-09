@@ -1,8 +1,14 @@
 <html>
+  <head>
+   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
   <b id="home">
     <!-- Nav Bar Start-->
+    <center>
     <nav>
-      <li><a href="index.html">Home</a> </li>
+      <li><a href="#home">Home</a></li>
       <li><a href="#graph">Graph</a> </li>
       <li><a href="#images">Images</a>  </li>
     </nav>
@@ -12,16 +18,16 @@
     
     
   
-    <h1> Box </h1>
-    
+    <h1> Boxes </h1>
+    </center>
     <ol type="I" start="1">
       <h3> small box </h3>
       <h3> Big box </h3>
     </ol>
     
     <ul style="list-style-type:circle;" id="graph">
-      <h4> -metal box</h4>
-      <h4> -wooden box</h4>
+      <h4> metal box</h4>
+      <h4> wooden box</h4>
       <li> </li>
       <br>
       <br>
@@ -52,10 +58,10 @@
         <td> 5 </td>
         <td> 25 </td>
       </table>
-    <h1> > 10 small metal boxes </h1>
-    <h1> > 20 big metal boxes </h1>
-    <h1> > 5 small wooden boxes </h1>
-    <h1> > 25 big wooden boxes </h1>
+    <h5>10 small metal boxes </h5>
+    <h5>20 big metal boxes </h5>
+    <h5>5 small wooden boxes </h5>
+    <h5>25 big wooden boxes </h5>
     <br>
     <br>
     <br>
@@ -66,6 +72,8 @@
     <br>
     <br>
     <br>
+    <button type="button" name="button" onclick="alert('No.')">
+  CLICK THIS BUTTON FOR BOX </button>
     <br>
     <br>
     <br>
@@ -74,41 +82,30 @@
     <br>
     <br>
     <br>
+    </body>
+  <br>
+  <div class="wrapper">
+    <div class="image">Wooden Box
     <br>
-   
-   
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT048v48e22a_s5Ru4CoAwXF8CjSyWzLIcmTWeLVe8IHplf-AV0OM_a8Hj8Lsqo7FG5uoo:https://www.valleybox.com/hs-fs/hub/113896/file-1366243771-png/Gallery/Album/wood-1-column/1/3.png&usqp=CAU" width=222>
-       
-    <img src="https://st.hzcdn.com/simgs/50b186cc0613234e_9-2068/home-design.jpg" width=232>
-         
-         
-
-   
-        
-        
-      
-       
-    
-    
-    
-  </body id="images">
+      <img src="https://produits.bienmanger.com/27749-0w0h0_Old_Wooden_Basket.jpg" Width=400>
+      </img>
+    </div>
+    <div class="image">Metal Box
+  <br>
+    <img src="https://crystalindustries.com/wp-content/uploads/2018/03/Metal-Boxes-Stainless-Steel.jpg" Width=400>
+      </img>
+  </div>
+    <div class="image">Cardboard Box
+<br>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Box.agr.jpg/1200px-Box.agr.jpg" Width=400>
+      </img>
+</div>
   
 </html>
+
 <style>
-  ul {
+
+ul {
   list-style-type: circle;
   color:green;
   
@@ -127,7 +124,8 @@ table, th, tr {
 }
 
 tr {
-  color: darkblue;
+  color: lightblue;
+  font-size: 30px;
 
 }
 h1 {
@@ -135,12 +133,15 @@ h1 {
   color: brown;
 }
 body {
-  background-color: lightblue;
+  background-color: darkblue;
 }
 
 li,a {
   display: inline;
   text-decoration: none;
+  font-size: 30px;
+  padding: 20px;
+  color: green;
 }
 nav {
   background-color: lightgray;
@@ -152,9 +153,37 @@ nav {
   text-size: 10px;
 }
 h1 {
-  color: gray
+  color: gray;
+  font-size: 100px;
+   
 }
 h3 {
   color:salmon;
+  display: inline;
+  padding: 25px;
+  font-size: 30px;
 }
+h5 {
+  color: black;
+  font-size: 30px;
+    
+}
+h4 {
+  display: inline;
+  font-size: 30px;
+  padding: 25px;
+}
+
+.wrapper {
+  display:grid;
+  height: 100vh;
+  grid-template-columns: 33% 34% 33%;
+  grid-row-gap: 20%;
+  font-size: 30px;
+}
+button {
+  font-size: 30px;
+  color: red;
+}
+
 </style>
